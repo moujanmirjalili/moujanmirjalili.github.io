@@ -140,3 +140,25 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.parent{
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  text-align: left;
+}
+.child{
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin: 0px auto;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .child{
+    width: 100%;
+  }
+}
